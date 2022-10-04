@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import TextInput from './lib/TextInput';
 import reportWebVitals from './reportWebVitals';
+import { Button } from 'perscitus-react-components';
+import InfoCard from './lib/InfoCard'
+
+const data = [ 'Perscitus', 'Manish', 'Santosh' ]
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TextInput />
+    <Button label="Raj" />
+    <Button label="perscitus" />
+
+    <div>
+      <h5>Notifications</h5>
+      <div className='d-flex'>
+        {data.map(name => <InfoCard Component={() => 
+        <Button label={name} />} />)}
+      </div>
+    </div>
+
   </React.StrictMode>
 );
 
