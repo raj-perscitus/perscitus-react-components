@@ -1,13 +1,17 @@
 {
   "name": "carynhealth-component-library",
   "version": "0.2.9",
-  "private": true,
+  "private": false,
   "main": "dist/cjs/components/index.js",
   "module": "dist/esm/components/index.js",
   "files": [
     "dist",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raj-perscitus/perscitus-react-components.git"
+  },
   "scripts": {
     "build": "npm run setup && npm run buildesm && npm run buildcjs && npm run copy && npm run setup",
     "buildesm": "tsc",
