@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+:root {
+  --UHF-theme-color: #543379;
+  --UHF-btn-color: rgb(233, 113, 111);
+  --UHF-theme_constrat-color: white;
+}
+.UHF {
+  font-family: "Oswald", sans-serif !important;
+}
+.UHF header {
+  background-color: var(--UHF-theme-color);
+}
+.UHF header .MuiButtonBase-root {
+  color: white;
+}
+.UHF .header_middle-page_name_text {
+  color: var(--UHF-theme_constrat-color);
+}
+.UHF header .MuiButtonBase-root {
+  color: var(--UHF-theme_constrat-color);
+}
+
+.UHF
+  .MuiButtonBase-root:not(
+    .MuiButton-text,
+    .headerMain .MuiButtonBase-root,
+    .MuiBottomNavigation-root .MuiButtonBase-root,
+    .MuiIconButton-colorInherit,
+    .MuiIconButton-root,
+    .MuiCheckbox-root 
+  ) {
+  background-color: var(--UHF-btn-color);
+}
+.UHF .MuiButtonBase-root.MuiButton-text {
+  color: var(--UHF-btn-color);
+}
+
+.UHF .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #697a86 !important;
+}
+.UHF .MuiOutlinedInput-notchedOutline {
+  border-color: #697a86;
+}
+
+.UHF .MuiListItem-root:hover {
+  color: var(--UHF-theme_constrat-color) !important;
+  background: var(--UHF-theme-color) !important;
+}
+.UHF .MuiPaper-root .MuiCardContent-root .MuiBox-root .cardTitle {
+  color: var(--UHF-theme-color) !important;
+}
+.UHF .css-9knwzs-MuiPaper-root-MuiCard-root .MuiCardHeader-content span {
+  color: #5f2161 !important;
+}
+.UHF
+  .MuiListItem-root:hover
+  .MuiListItemText-root
+  .MuiListItemText-secondary
+  span {
+  color: var(--UHF-theme_constrat-color) !important;
+}
+.UHF .css-9mgopn-MuiDivider-root {
+  border-color: var(--UHF-theme_constrat-color);
+}
+@media only screen and (max-width: 768) {
+  .UHF section .forgot-text div {
+    color: var(--UHF-theme-color) !important;
+  }
+}

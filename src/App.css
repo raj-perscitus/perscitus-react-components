@@ -1,0 +1,80 @@
+#example-card-title {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.d-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.popupContant {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.web_checkoutboldtext {
+  font-size: 1.4vw;
+  color: black;
+  font-weight: 500;
+}
+
+.web_tooltip_2nd_text {
+  font-size: 1.2vw;
+  height: 1.2vw;
+  color: black;
+  font-weight: 400;
+  padding-left: 26px;
+  padding-right: 14px;
+  padding-bottom: 19px;
+}
+
+.yellow_popup_caption_button {
+  position: absolute;
+  border-radius: 20px;
+  top: 48%;
+  padding: 1em;
+  background-color: #eb5757;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1vw;
+  border: none;
+  text-align: center;
+}
+
+.labelRECENTTRANSACTIONS {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #543379;
+}
+
+.mobile_headerNetWell{
+  width: 100%;
+    height: 36px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile_header_titleNetWell {
+  flex: 1 1;
+  margin: 0 20px;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: .5px;
+  color: #000;
+}

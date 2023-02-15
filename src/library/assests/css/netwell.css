@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --NETWELL-theme-color: #fff;
+  --NETWELL-btn-color: #4782c4;
+  --NETWELL-constrat-color: green;
+  --NETWELL-title-color: #162242;
+}
+
+.NETWELL {
+  font-family: "Roboto", sans-serif;
+}
+.NETWELL header {
+  background-color: var(--NETWELL-theme-color);
+}
+.NETWELL header .MuiButtonBase-root {
+  color: black;
+}
+.NETWELL .header_middle-page_name_text {
+  color: var(--NETWELL-constrat-color);
+}
+.NETWELL
+  .MuiButtonBase-root:not(
+    .MuiButton-text,
+    .headerMain .MuiButtonBase-root,
+    .MuiIconButton-colorInherit,
+    .MuiIconButton-root,
+    .MuiCheckbox-root 
+  ) {
+  background-color: var(--NETWELL-btn-color);
+  box-shadow: none;
+}
+.NETWELL .MuiButtonBase-root:not(.MuiButtonBase-root) {
+  background-color: var(--NETWELL-theme-color);
+  box-shadow: none;
+}
+.NETWELL .MuiButtonBase-root.MuiButton-text {
+  color: var(--NETWELL-btn-color);
+}
+.NETWELL .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #697a86 !important;
+}
+.NETWELL .MuiOutlinedInput-notchedOutline {
+  border-color: #697a86;
+}
+.NETWELL .MuiListItem-root:hover {
+  color: var(--NETWELL-hover-color) !important;
+  background: var(--NETWELL-btn-color) !important;
+}
+.NETWELL .css-9knwzs-MuiPaper-root-MuiCard-root .MuiCardHeader-content span {
+  color: var(--NETWELL-title-color) !important;
+}
+.NETWELL
+  .MuiListItem-root:hover
+  .MuiListItemText-root
+  .MuiListItemText-secondary
+  span {
+  color: var(--UHF-theme_constrat-color) !important;
+}
+@media only screen and (max-width: 768) {
+  .NETWELL section .forgot-text div {
+    color: var(--NETWELL-btn-color) !important;
+    margin: 40px 0px 20px !important;
+  }
+}
