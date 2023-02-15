@@ -79,7 +79,6 @@
     "axios": "^1.2.1",
     "buffer": "^6.0.3",
     "copyfiles": "^2.4.1",
-    "material-ui-popup-state": "^5.0.4",
-    "perscitus-react-components": "^0.1.5"
+    "material-ui-popup-state": "^5.0.4"
   }
 }
