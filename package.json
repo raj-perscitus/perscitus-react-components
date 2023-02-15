@@ -1,6 +1,6 @@
 {
   "name": "perscitus-react-components",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "private": false,
   "main": "dist/cjs/components/index.js",
   "module": "dist/esm/components/index.js",
