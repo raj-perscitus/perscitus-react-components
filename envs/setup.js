@@ -1,1 +1,0 @@
-console.log("Hey, found env file")
